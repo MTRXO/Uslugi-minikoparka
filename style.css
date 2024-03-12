@@ -1,0 +1,28 @@
+body{
+    background-color:  #4b6584;
+    
+
+}
+nav{
+    border-radius: 45px;
+    padding: 2%;
+}
+.nav-link {
+    transition: all 0.2s;
+    position: relative;
+}
+
+.nav-link:hover::after{
+    
+   content: '';
+   height: 3px;
+   width: 100%;
+   background-color: rgb(0, 0, 0);
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   border-radius: 6px;
+
+
+}
+
