@@ -26,3 +26,25 @@ nav{
 
 }
 
+a{
+    text-decoration: none;
+}
+footer {
+    padding: 20px 0;
+    background-color: black;
+    height: 200px;
+  }
+  
+  footer h3 {
+    margin-bottom: 15px;
+  }
+  
+  footer p, footer a {
+    margin-bottom: 5px;
+  }
+  
+  footer a {
+    color: white;
+  }
+
+
