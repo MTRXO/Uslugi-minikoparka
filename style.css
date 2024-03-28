@@ -60,7 +60,7 @@ nav {
   content: '';
   height: 3px;
   width: 100%;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(212, 38, 38);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -101,4 +101,46 @@ footer a {
 }
 .card-title{
   font-size: large;
+}
+.gallery-item {
+  margin-bottom: 20px;
+}
+.gallery-item img {
+  max-width: 100%;
+  height: auto;
+}
+/* Styl dla kontenera galerii */
+.gallery-container {
+  background-color: #000000; /* kolor tła */
+  border-radius: 15px; /* zaokrąglenie krawędzi */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* cień */
+  padding: 20px; /* odstęp wewnątrz kontenera */
+  position: relative; /* ustawiamy pozycję kontenera na relatywną */
+}
+
+/* Styl dla przycisków nawigacyjnych */
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: rgba(255, 255, 255, 0.5); /* kolor tła przycisków */
+  border-radius: 50%; /* zaokrąglenie przycisków */
+  width: 50px; /* szerokość przycisków */
+  height: 50px; /* wysokość przycisków */
+  position: absolute; /* ustawiamy pozycję na absolutną */
+  top: 50%; /* odległość od góry kontenera */
+  transform: translateY(-50%); /* wycentrowanie pionowe */
+  font-size: 24px; /* rozmiar ikony */
+}
+
+/* Styl dla ikony strzałki w lewo */
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3e%3cpath d='M6 0L1 4l5 4V0z'/%3e%3c/svg%3e");
+}
+
+/* Styl dla ikony strzałki w prawo */
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3e%3cpath d='M2 0v8l5-4L2 0z'/%3e%3c/svg%3e");
+}
+
+.contact-container {
+  margin-top: 40px; /* Dodaj margines górny */
 }

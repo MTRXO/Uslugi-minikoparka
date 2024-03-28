@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 </head>
+<body>
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary rounded shadow mt-3 mx-3  ">
     <div class="container-fluid">
@@ -25,37 +26,66 @@
         </div>
     </div>
 </nav>
+<br>
 
+<h1 style="text-align: center;">Nasza galeria </h1>
+<hr>
 
+<div class="row align-items-center justify-content-center">
+    <div class="col-lg-6 mb-4"> 
+        <div class="container gallery-container">
+            <div id="Galery" class="carousel slide" data-bs-ride="carousel">
 
-
-
-
-
-<body>
-
-
-    <footer class="bg-dark text-white pt-4 py-4 ">
-        <div class="container">
-            <div class="row pt-4">
-                <div class="col-12 col-md-4 py-2">
-                    <h3>Kontakt</h3>
-                    <p><i class="bi bi-telephone-fill"></i> 663 666 728</p>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="photos/galeryimg1.png" class="d-block w-100" alt="first slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="photos/galeryimg2.png" class="d-block w-100" alt="second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="photos/galeryimg3.png" class="d-block w-100" alt="third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="photos/galeryimg4.png" class="d-block w-100" alt="fourth slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="photos/galeryimg5.png" class="d-block w-100" alt="fifth slide">
+                    </div>
                 </div>
-                <div class="col-12 col-md-4 py-2">
-                    <h3>Social Media</h3>
-                    <a href="https://www.facebook.com/profile.php?id=61556631797343" class="text-decoration-none"><i class="bi bi-facebook"></i> Facebook</a>
-                </div>
-                <div class="col-12 col-md-4 py-2">
-                    <h3>Lokalizacja</h3>
-                    <p><i class="bi bi-geo-alt-fill"></i> <a href="https://www.google.pl/maps/place/%C5%BByrardowska+9,+96-320+Grabce+J%C3%B3zefpolskie/@51.9814983,20.5008224,17.25z/data=!4m6!3m5!1s0x4719417e092dba25:0x56ab4186b0071898!8m2!3d51.9814756!4d20.5030354!16s%2Fg%2F11pzt7rxry?entry=ttu" class="text-decoration-none">Żyrardowska 9, Grabce Józefpolskie</a></p>
-                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#Galery" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#Galery" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
-    </footer>
-    
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
+    </div>
+</div>
 
-    </body>
-    </html>
+<footer class="bg-dark text-white pt-4 py-4 ">
+    <div class="container">
+        <div class="row pt-4">
+            <div class="col-12 col-md-4 py-2">
+                <h3>Kontakt</h3>
+                <p><i class="bi bi-telephone-fill"></i> 663 666 728</p>
+            </div>
+            <div class="col-12 col-md-4 py-2">
+                <h3>Social Media</h3>
+                <a href="https://www.facebook.com/profile.php?id=61556631797343" class="text-decoration-none"><i class="bi bi-facebook"></i> Facebook</a>
+            </div>
+            <div class="col-12 col-md-4 py-2">
+                <h3>Lokalizacja</h3>
+                <p><i class="bi bi-geo-alt-fill"></i> <a href="https://www.google.pl/maps/place/%C5%BByrardowska+9,+96-320+Grabce+J%C3%B3zefpolskie/@51.9814983,20.5008224,17.25z/data=!4m6!3m5!1s0x4719417e092dba25:0x56ab4186b0071898!8m2!3d51.9814756!4d20.5030354!16s%2Fg%2F11pzt7rxry?entry=ttu" class="text-decoration-none">Żyrardowska 9, Grabce Józefpolskie</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I
