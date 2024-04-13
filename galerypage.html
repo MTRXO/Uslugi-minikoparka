@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Usługi minikoparką</title>
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
     <link rel="stylesheet" href="style.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -31,45 +31,127 @@
 </nav>
 <br>
 
-<h1 style="text-align: center;">Nasza galeria </h1>
-<hr>
-
-<div class="row align-items-center justify-content-center">
-    <div class="col-lg-6 mb-4"> 
-        <div class="container gallery-container">
-            <div id="Galery" class="carousel slide" data-bs-ride="carousel">
-
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="photos/galeryimg1.png" class="d-block w-100" alt="first slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="photos/galeryimg2.png" class="d-block w-100" alt="second slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="photos/galeryimg3.png" class="d-block w-100" alt="third slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="photos/galeryimg4.png" class="d-block w-100" alt="fourth slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="photos/galeryimg5.png" class="d-block w-100" alt="fifth slide">
-                    </div>
-                </div>
-
-                <button class="carousel-control-prev" type="button" data-bs-target="#Galery" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#Galery" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
+<div class="container">
+    <h1 class="text-center mt-5">Nasza galeria zdjęć</h1>
+    <hr>
+    <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
+      <div class="col">
+        <div class="card">
+          <img src="photos/galeryimg1.png" class="card-img-top" alt="Zdjęcie 1" data-bs-toggle="modal" data-bs-target="#photoModal1">
         </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="photos/galeryimg2.png" class="card-img-top" alt="Zdjęcie 2" data-bs-toggle="modal" data-bs-target="#photoModal2">
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="photos/galeryimg3.png" class="card-img-top" alt="Zdjęcie 3" data-bs-toggle="modal" data-bs-target="#photoModal3">
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="photos/galeryimg4.png" class="card-img-top" alt="Zdjęcie 3" data-bs-toggle="modal" data-bs-target="#photoModal4">
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="photos/galeryimg5.png" class="card-img-top" alt="Zdjęcie 3" data-bs-toggle="modal" data-bs-target="#photoModal5">
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="photos/galeryimg6.png" class="card-img-top" alt="Zdjęcie 3" data-bs-toggle="modal" data-bs-target="#photoModal6">
+        </div>
+      </div>
+    
     </div>
-</div>
+  </div>
 
+ 
+  <div class="modal fade bg-dark" id="photoModal1" tabindex="-1" aria-labelledby="photoModal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header"> 
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body ">
+          <img src="photos/galeryimg1.png" class="img-fluid" alt="Zdjęcie 1">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal fade bg-dark" id="photoModal2" tabindex="-1" aria-labelledby="photoModal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="photos/galeryimg2.png" class="img-fluid" alt="Zdjęcie 1">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade bg-dark" id="photoModal3" tabindex="-1" aria-labelledby="photoModal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="photos/galeryimg3.png" class="img-fluid" alt="Zdjęcie 1">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade bg-dark" id="photoModal4" tabindex="-1" aria-labelledby="photoModal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="photos/galeryimg4.png" class="img-fluid" alt="Zdjęcie 1">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade bg-dark" id="photoModal5" tabindex="-1" aria-labelledby="photoModal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="photos/galeryimg5.png" class="img-fluid" alt="Zdjęcie 1">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade bg-dark" id="photoModal6" tabindex="-1" aria-labelledby="photoModal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="photos/galeryimg6.png" class="img-fluid" alt="Zdjęcie 1">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <br>
 <footer class="bg-dark text-white pt-4 py-4 ">
     <div class="container">
         <div class="row pt-4">
