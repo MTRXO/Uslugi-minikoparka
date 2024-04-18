@@ -12,11 +12,7 @@
   position: relative;
 }
 
-@media screen and (max-width: 768px) {
-  .backgroundphoto {
-    height: auto; 
-  }
-}
+
 
 .position-absolute {
   top: 50%; 
@@ -97,6 +93,9 @@ footer a {
       max-width: 100%; 
       margin: 2% auto; 
   }
+  .backgroundphoto {
+    height: auto; 
+  }
 }
 .maintext{
   text-align: center;
@@ -149,4 +148,8 @@ footer a {
 
 .contact-container {
   margin-top: 40px; 
+}
+.machinephoto{
+  
+
 }
